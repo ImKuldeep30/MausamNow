@@ -54,7 +54,7 @@ body{
 
 .current{
     height: 350px;
-    width: 400px;
+    width: 300px;
 }
 .forecast{
     width: 1000px;
@@ -117,7 +117,7 @@ body{
 
 .search input{
     height: 25px;
-    width: 220px;
+    width: 200px;
     margin: 10px;
     border: none;
     border-radius: 8px;
@@ -133,7 +133,7 @@ body{
 
 #btn{
     margin: 14px;
-    width: 80px;
+    width: 70px;
     height: 26px;
     border-radius: 10px;
     border: 2px solid ;
