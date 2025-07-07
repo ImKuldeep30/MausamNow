@@ -183,3 +183,55 @@ ul a{
     text-decoration: none;
     color: lightblue;
 }
+
+/* mobile responsiveness */
+
+/* Mobile Responsive - for screens smaller than 768px */
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .content {
+    flex-direction: column; /* stack current, forecast, search vertically */
+    align-items: center;
+  }
+
+  .current,
+  .forecast,
+  .search,
+  .about,
+  .contact {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .forecast-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .forecast-card {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
